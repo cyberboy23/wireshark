@@ -16,24 +16,24 @@ Project consists of a simple exercise on how to source through data packets
 <h2>data packets walk-through:</h2>
 
 <p align="center">
-run data packets: <br/>
+run data packets 👨🏿‍💻: <br/>
 <img src="https://github.com/user-attachments/assets/d1bf0d7b-8f55-431b-9333-764bf537f62a" /> 
-in this image we have opend wireshark and ran ethernet 
+in this image we have opend wireshark and ran ethernet
 <br />
 <br />
 analysis conversation ipv6:  <br/>
 <img src="https://github.com/user-attachments/assets/2fb2ecb6-ecee-44d6-917e-b578c564c576" /> 
-in this image we can see how many packits was sent to this address how many bytes,bits and the duration 
+in this image we can see how many packets were sent to this address,how many bytes,bits and the duration 
 <br />
 <br />
-http looking for phishing: <br/>
+http looking for phishing 🎣: <br/>
 <img src="https://github.com/user-attachments/assets/ea90e8e4-e20c-43a3-9056-b2ab484d416d" /> 
-in this image it shows us looking at http for phisshing and oping hypertext to view packit 
+in this image it shows us looking at http for phisshing and opening hypertext to view packet
 <br />
 <br />
 http stream:  <br/>
 <img src="https://github.com/user-attachments/assets/2c3e02b3-9f6b-4a19-967b-ac30997b251b" /> 
-in this image we opened the http stream tool to get a better view of the packit that was sent to the ipv6 
+in this image we opened the http stream tool to get a better view of the packet that was sent to the ipv6 
  <br />
 <br />
 tcp port 80:  <br/>
