@@ -1,51 +1,49 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>jordans wireshark</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of a simple exercise on how to source through data packets 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>tools Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>wireshark</b> 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>linux</b> 
 
-<h2>Program walk-through:</h2>
+<h2>data packets walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="blob:chrome-untrusted://media-app/1d62ab53-b05d-40e6-b983-f5625bb2dafb"/>
+run data packets: <br/>
+<img src="https://github.com/user-attachments/assets/d1bf0d7b-8f55-431b-9333-764bf537f62a" /> 
+in this image we have opend wireshark and ran ethernet 
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+analysis conversation ipv6:  <br/>
+<img src="https://github.com/user-attachments/assets/2fb2ecb6-ecee-44d6-917e-b578c564c576" /> 
+in this image we can see how many packits was sent to this address how many bytes,bits and the duration 
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+http looking for phishing: <br/>
+<img src="https://github.com/user-attachments/assets/ea90e8e4-e20c-43a3-9056-b2ab484d416d" /> 
+in this image it shows us looking at http for phisshing and oping hypertext to view packit 
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+http stream:  <br/>
+<img src="https://github.com/user-attachments/assets/2c3e02b3-9f6b-4a19-967b-ac30997b251b" /> 
+in this image we opened the http stream tool to get a better view of the packit that was sent to the ipv6 
+ <br />
 <br />
+tcp port 80:  <br/>
+<img src="https://github.com/user-attachments/assets/cbdeef25-5e04-44a5-aff0-af598a35981c" /> 
+in this image i am looking at secured connections or encrypted traffic 
+ <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
