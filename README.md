@@ -28,7 +28,7 @@ in this image we can see how many packets were sent to this address,how many byt
 <br />
 http looking for phishing 🎣: <br/>
 <img src="https://github.com/user-attachments/assets/ea90e8e4-e20c-43a3-9056-b2ab484d416d" /> 
-in this image it shows us looking at http for phisshing and opening hypertext to view packet
+in this image it shows us looking at http for phishing and opening hypertext to view packet
 <br />
 <br />
 http stream:  <br/>
